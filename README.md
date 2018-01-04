@@ -19,11 +19,12 @@ In other words, if Vigenère himself wanted to say HELLO to someone confidential
 
 Table 1. Encrypting HELLO with a keyword of ABC (reused cyclically as ABCAB) yields HFNLP.
 
+|||||||
 | --- | --- | --- | --- | --- | --- |
-| plaintext | H | E | L | L | O |
-| + key | A | B | C | A | B |
+| **plaintext** | H | E | L | L | O |
+| **+ key** | A | B | C | A | B |
 | | 0 | 1 | 2 | 0 | 1 |
-| = ciphertext | H | F | N | L | P |
+| **= ciphertext** | H | F | N | L | P |
 
 ## Specification
 Design and implement a program that encrypts messages using Vigenère’s cipher.
